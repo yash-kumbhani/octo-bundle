@@ -1,0 +1,37 @@
+nav {
+  &.nav-wrapper {
+    &.teal {
+      height: 106px;
+      position: relative;
+    }
+  }
+  .brand-logo {
+    @media (min-width: 991px) and (max-width: 1199px) {
+      left: 14% !important;
+    }
+    @media (min-width: 768px) and (max-width: 990px) {
+      position: inherit !important;
+      transform: none !important;
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+      position: inherit !important;
+      transform: none !important;
+      text-align: center;
+      width: 100%;
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+      position: inherit !important;
+      transform: none !important;
+    }
+  }
+  ul {
+    .right {
+      position: absolute;
+      top: 45%;
+      width: 100%;
+      left: 0;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
